@@ -1,0 +1,139 @@
+.div-backgournd-header {
+    background: white;
+    clear: both;
+    position: fixed !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px -2px 20px 0px #6e6e6e !important;
+    width: 100%;
+}
+
+.img-logo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    cursor: pointer;
+    width: 60%;
+}
+
+.img-logo-ipad {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img-logo-phone {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img-logo-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 45%;
+    width: 40%;
+}
+
+.img-logo-pic-phone {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    cursor: pointer;
+    height: 40%;
+    width: 40%;
+}
+
+.appBar-grid {
+    padding: 20px 20px 0px 0px;
+}
+
+.style-crad {
+    border: 0px solid #ddd !important;
+    border-radius: 50px !important;
+    width: 100%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-top: 15px;
+    background-color: #f8f8fa;
+}
+
+.div-Back {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 15px 0px 35px 0px;
+    margin-bottom: 68vh;
+}
+
+.div-Back-ipad {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 75px 0px 74px 0px;
+}
+
+.footer {
+    background: #303136;
+    min-height: 14.1vh;
+    width: 100%;
+}
+
+.footer-ipad {
+    background: #303136;
+    min-height: 14.1vh;
+    width: 100%;
+    padding: 1%;
+}
+
+.footer-About {
+    padding: 4px 0px 0px 120px;
+}
+
+.footer-Contact {
+    padding: 4px 0px 0px 60px;
+}
+
+.footer-crad {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 0px solid #ddd !important;
+    border-radius: 50px !important;
+    width: 100%;
+    background: #f8f8fa;
+    padding: 3px 0px 0px 7px;
+}
+
+.nav-menu-itemH {
+    text-decoration: none !important;
+}
+
+
+/* .nav-menu-itemH-lv1 {
+    width: 200px;
+    padding: 6px;
+    text-decoration: none !important;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.nav-menu-itemH-lv1:hover {
+    background-color: aliceblue;
+    border-radius: 0px 0px 0px 0px;
+    color: black!important;
+    text-decoration: none !important;
+}
+
+.nav-menu-itemH-lv1.active {
+    background: linear-gradient(85deg, rgb(122 7 7), rgb(169 16 16), rgb(238, 157, 157));
+    border-radius: 0px 0px 0px 0px;
+    color: white !important;
+}
+
+.nav-menu-itemH-lv1.active svg {
+    color: white !important;
+}
+
+.nav-menu-itemH-lv1:hover svg {
+    color: black!important;
+} */

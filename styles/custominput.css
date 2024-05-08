@@ -1,0 +1,22 @@
+.div-textbox-area {
+    position: relative;
+}
+
+.div-textbox-area .input-character-count {
+    position: absolute;
+    color: #8c8c8c !important;
+    right: 8px !important;
+    bottom: 0 !important;
+    font-size: 11px !important;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    transform-origin: left top;
+    transform: scaleY(0);
+    padding-top: 2.9px;
+    padding-left: 13px;
+    padding-right: 5px;
+}
+
+.div-textbox-area:focus-within .input-character-count {
+    transform: scaleY(1);
+}

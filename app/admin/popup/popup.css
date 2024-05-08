@@ -1,0 +1,45 @@
+.Grid-Header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  padding: 85px 0px 74px 0px;
+  width: 100%;
+  min-height: 81.1vh;
+}
+
+
+.boxHeader {
+  padding: 1rem;
+  width: 100%;
+  background-color: #2080fe;
+  border-radius: 10px;
+}
+
+.boxHeader-text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.boxBody {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+
+.box-line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxline-status {
+  display: flex;
+  gap: 1rem;
+}
+
+.boxline-btn {
+  display: flex;
+  justify-content: space-evenly;
+}

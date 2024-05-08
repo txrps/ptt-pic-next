@@ -1,0 +1,120 @@
+.tbcustomcell {
+  background-color: #00338d !important;
+  color: white !important;
+  /* display: flex; */
+  border: 1px solid #dee2e6;
+}
+
+.tbcustomcell_PE {
+  background-color: #4c9a00 !important;
+  color: white !important;
+  /* display: flex; */
+  border: 1px solid #dee2e6;
+  font-weight: bold !important;
+}
+
+.tbcustomcell_IA {
+  background-color: #9be1fe !important;
+  color: black !important;
+  /* display: flex; */
+  border: 1px solid #dee2e6;
+  font-weight: bold !important;
+}
+
+.tbcustomcell_TF {
+  background-color: #00338d !important;
+  color: white !important;
+  /* display: flex; */
+  border: 1px solid #dee2e6;
+  font-weight: bold !important;
+}
+
+.tbcustomcell_BF {
+  background-color: #747678 !important;
+  color: white !important;
+  /* display: flex; */
+  border: 1px solid #dee2e6;
+  font-weight: bold !important;
+}
+
+.tbcustomcell_KM {
+  background-color: #56B46A !important;
+  color: white !important;
+  border: 1px solid #dee2e6;
+  font-weight: bold !important;
+}
+
+.sticky {
+  position: fix !important;
+  width: 300px;
+}
+
+.tbCellBody {
+  border: 1px solid #dee2e6;
+  background-color: #ffffff;
+  word-break: break-word;
+}
+
+.table-column-custom {
+  position: relative;
+}
+
+.table-text-menu {
+  width: 100%;
+}
+
+.table-textsort-menu {
+  width: 100%;
+}
+
+.table-icon-menu {
+  position: absolute;
+  right: 0;
+}
+
+.table-icon-menu button {
+  font-size: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+
+.th-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+}
+
+.td-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+  background-color: white !important;
+}
+
+.th-left-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+  left: 0;
+}
+.th-left47-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+  left: 47;
+}
+.td-left-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+  background-color: white !important;
+  left: 0;
+}
+.th-right-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+  right: 0;
+}
+
+.td-right-sticky {
+  position: sticky !important;
+  z-index: 4 !important;
+  background-color: white !important;
+  right: 0;
+}

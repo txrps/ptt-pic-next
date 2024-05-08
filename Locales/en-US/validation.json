@@ -1,0 +1,15 @@
+{
+    "required": "Please specify",
+    "patternEmail": "Invalid email format.",
+    "patternPassword": "Password must be at least 8 characters long and contain: a uppercase letter, an lowercase letter, a number, a sign. (!, @, #, $, %, ^, &, * )",
+    "patternThai": "Specify characters ก-ฮ",
+    "patternThaiNumber": "Specify characters ก-ฮ , 0-9",
+    "patternEng": "Specify characters A-Z",
+    "patternEngNumber": "Specify characters A-Z , 0-9",
+    "inputMax": "Please specify a value less than",
+    "inputMin": "Please specify a value greater than",
+    "inputMinMax": "Please specify value between",
+    "patternNumber": "Specify number",
+    "patternScientific": "Specify Scientific Notation",
+    "pattenLink":"URL should be a valid"
+}

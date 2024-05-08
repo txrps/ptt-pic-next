@@ -1,0 +1,263 @@
+/* เปลี่ยนขนาดตัวอักษร หลังบ้าน*/
+
+.boxTopMenu {
+    display: block;
+    height: 25px;
+    line-height: 30px;
+    color: #4f4f4f;
+    position: relative;
+    z-index: 5
+}
+
+.boxTopMenu .boxLeft {
+    display: block;
+    float: left
+}
+
+.boxTopMenu .boxLeft:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+.ctrlFontSize {
+    display: block;
+    float: left;
+    padding: 0px 12px 0px 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ctrlFontSize .textFrontSize {
+    display: block;
+    float: left;
+    font-size: 12px !important;
+}
+
+.ctrlFontSize .boxList {
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 5px
+}
+
+.ctrlFontSize .boxList a {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0px 5px;
+    height: 32px;
+    opacity: 0.5;
+    cursor: pointer
+}
+
+.ctrlFontSize .boxList a:first-child {
+    font-size: 14px;
+    line-height: 28px
+}
+
+.ctrlFontSize .boxList a:nth-child(2) {
+    font-size: 15px;
+    line-height: 26px
+}
+
+.ctrlFontSize .boxList a:nth-child(3) {
+    font-size: 17px;
+    line-height: 24px
+}
+
+.ctrlFontSize .boxList a:hover {
+    opacity: 0.8
+}
+
+.ctrlFontSize .boxList a.action {
+    opacity: 1
+}
+
+.ctrlFontSize .boxList a.action:after {
+    display: block;
+    content: "";
+    width: 64%;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    left: 18%;
+    bottom: 8px;
+    background: #fff;
+    opacity: 0.8
+}
+
+.ctrlFontSize .boxList:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+.ctrlFontSize:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+html {
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px
+}
+
+html.font-small {
+    font-size: 12px !important;
+}
+
+html.font-normal {
+    font-size: 16px !important;
+}
+
+html.font-medium {
+    font-size: 18px !important;
+}
+
+html.font-big {
+    font-size: 20px !important;
+}
+
+
+/* เปลี่ยนขนาดตัวอักษร หน้าบ้าน */
+
+.boxTopMenuFrontEnd {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background: -webkit-gradient(linear, left top, right top, from(#351b09), color-stop(80%, #351b09), to(#ff0000));
+    background: -o-linear-gradient(left, #351b09 0%, #351b09 80%, #ff0000 100%);
+    /* background: linear-gradient(to bottom, #0000003d, #bdc3c700) !important; */
+    /* background: linear-gradient(to right, #351b09 0%, #7c0000 80%, #ff0000 100%); */
+    /* background: linear-gradient(to right, #74747442 0%, #7c000038 80%, #ff000024 100%); */
+    background: linear-gradient(to right, #ffffff00 0%, #7c000024 80%, #ff000024 100%);
+    color: #a78c78;
+    position: relative;
+    z-index: 10000;
+}
+
+.boxTopMenuFrontEnd .boxLeftFrontEnd {
+    display: block;
+    float: left
+}
+
+.boxTopMenuFrontEnd .boxLeftFrontEnd:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+.boxTopMenuFrontEnd .boxRightFrontEnd {
+    display: block;
+    float: right;
+    color: #fff
+}
+
+.boxTopMenuFrontEnd .boxRightFrontEnd:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+.boxTopMenuFrontEndPhone {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background: -webkit-gradient(linear, left top, right top, from(#351b09), color-stop(80%, #351b09), to(#ff0000));
+    background: -o-linear-gradient(left, #351b09 0%, #351b09 80%, #ff0000 100%);
+    background: linear-gradient(to right, #ffffff00 0%, #7c000024 80%, #ff000024 100%);
+    color: #a78c78;
+    position: relative;
+    z-index: 10000;
+    /* margin-top: 30px; */
+}
+
+.ctrlFontSizeFrontEnd {
+    display: block;
+    float: left;
+    padding: 0px 12px 0px 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+.ctrlFontSizeFrontEnd .textFrontSizeFrontEnd {
+    display: block;
+    float: left;
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd {
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 5px
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0px 5px;
+    height: 32px;
+    opacity: 0.5;
+    cursor: pointer
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a:first-child {
+    font-size: 18px;
+    line-height: 28px
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a:nth-child(2) {
+    font-size: 23px;
+    line-height: 26px
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a:nth-child(3) {
+    font-size: 26px;
+    line-height: 24px
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a:hover {
+    opacity: 0.8
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a.action {
+    opacity: 1
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd a.action:after {
+    display: block;
+    content: "";
+    width: 64%;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    left: 18%;
+    bottom: 8px;
+    background: #fff;
+    opacity: 0.8
+}
+
+.ctrlFontSizeFrontEnd .boxListFrontEnd:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+.ctrlFontSizeFrontEnd:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}

@@ -1,0 +1,77 @@
+.div-breadcrumbs {
+    padding: 0.75rem;
+    color: rgb(54, 8, 237) !important;
+    line-height: 1rem;
+}
+
+.div-breadcrumbs a {
+    display: flex !important;
+    cursor: pointer;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.div-breadcrumbs p {
+    display: flex !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+
+/* Front End */
+
+.div-breadcrumbs-frontend {
+    padding: 0.65rem;
+    background: linear-gradient(to right, #b0843f 0%, #e2c27c 80%, #f1d58e 100%);
+    line-height: 1rem;
+    color: white !important;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.189) 0px 5px 15px;
+    position: absolute;
+    top: 94%;
+    right: 46%;
+    width: 48%;
+}
+
+.div-breadcrumbs-frontend a {
+    display: flex !important;
+    cursor: pointer;
+    font-weight: 400 !important;
+    color: white !important;
+}
+
+.div-breadcrumbs-frontend p {
+    display: flex !important;
+    font-weight: 400 !important;
+    color: white !important;
+}
+
+
+/* Front End Project */
+
+.div-breadcrumbs-frontend-project {
+    padding: 0.65rem;
+    background: linear-gradient(to right, #b0843f 0%, #e2c27c 80%, #f1d58e 100%);
+    line-height: 1rem;
+    color: white !important;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.189) 0px 5px 15px;
+    position: sticky;
+    /* top: 30%; */
+    right: 48%;
+    width: 48%;
+    z-index: 1;
+}
+
+.div-breadcrumbs-frontend-project a {
+    display: flex !important;
+    cursor: pointer;
+    font-weight: 400 !important;
+    color: white !important;
+}
+
+.div-breadcrumbs-frontend-project p {
+    display: flex !important;
+    font-weight: 400 !important;
+    color: white !important;
+}

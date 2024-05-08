@@ -1,0 +1,18 @@
+<testExecutions version="1">
+  <file path="__tests__\admin\panelHeader\panelHeader.test.tsx">
+    <testCase name="Page resultType - Render Page" duration="102" />
+    <testCase name="Function - useResultTypeDataManagement" duration="8" />
+  </file>
+  <file path="__tests__\admin\status\status.test.tsx">
+    <testCase name="Page Popup - Render Page" duration="104" />
+    <testCase name="Function - useStatusDataManagement" duration="5" />
+  </file>
+  <file path="__tests__\admin\template\template.test.tsx">
+    <testCase name="Page Template List - Render Page" duration="189" />
+    <testCase name="Function - useTemplateDataManagement" duration="7" />
+  </file>
+  <file path="__tests__\homepage\homepagetest.test.tsx">
+    <testCase name="Page hometest - Render page" duration="61" />
+    <testCase name="Function - useHomepage" duration="13" />
+  </file>
+</testExecutions>

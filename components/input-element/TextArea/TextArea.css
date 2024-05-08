@@ -1,0 +1,22 @@
+.div-textarea-area {
+    position: relative;
+}
+
+.div-textarea-area .textarea-character-count {
+    position: absolute;
+    color: #8c8c8c !important;
+    right: 8px !important;
+    bottom: -13px !important;
+    font-size: 11px !important;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    transform-origin: left top;
+    transform: scaleY(0);
+    padding-top: 2.9px;
+    padding-left: 13px;
+    padding-right: 5px;
+}
+
+.div-textarea-area:focus-within .textarea-character-count {
+    transform: scaleY(1);
+}

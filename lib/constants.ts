@@ -1,0 +1,42 @@
+import { Color } from ".";
+
+export const Extension = {
+    Image: ["jpg", "jpeg", "png"],
+    GIF: ["gif"],
+    Video: ["mp4"],
+    PDF: ["pdf"],
+    Document: ["doc", "docx", "xls", "xlsx"],
+    Word: ["doc", "docx"],
+    Excel: ["xls", "xlsx"],
+    PowerPoint: ["pptx", "ppt"],
+    Text: ["txt"],
+    Email: ["msg"],
+    Other: ["rar", "zip"],
+    ImageDocument: ["jpg", "jpeg", "png", "doc", "docx", "xls", "xlsx", "pptx", "ppt", "pdf",
+    ],
+};
+
+export const BaseColors: { [key: string]: Color } = {
+    Slate: "slate",
+    Gray: "gray",
+    Zinc: "zinc",
+    Neutral: "neutral",
+    Stone: "stone",
+    Red: "red",
+    Orange: "orange",
+    Amber: "amber",
+    Yellow: "yellow",
+    Lime: "lime",
+    Green: "green",
+    Emerald: "emerald",
+    Teal: "teal",
+    Cyan: "cyan",
+    Sky: "sky",
+    Blue: "blue",
+    Indigo: "indigo",
+    Violet: "violet",
+    Purple: "purple",
+    Fuchsia: "fuchsia",
+    Pink: "pink",
+    Rose: "rose",
+  };

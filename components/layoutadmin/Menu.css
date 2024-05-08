@@ -1,0 +1,126 @@
+.nav-menu {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 0px !important;
+}
+
+.icon-menu {
+    color: #003668!important;
+}
+
+.nav-menu-burger {
+    background: white!important;
+}
+
+.nav-menu-item {
+    text-decoration: none !important;
+    color: #003668!important;
+}
+
+.nav-menu-item-lv1 {
+    background-color: #003668;
+    text-decoration: none !important;
+    color: white!important;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.nav-menu-item-lv1:hover {
+    background-color: #5b9cd7;
+    border-radius: 0px 0px 0px 0px;
+    color: white!important;
+    text-decoration: none !important;
+}
+
+.nav-menu-item-lv1.active {
+    background-color: #0d66d9;
+    border-radius: 0px 0px 0px 0px;
+    color: white !important;
+}
+
+.nav-menu-item-lv1.active svg {
+    color: white !important;
+}
+
+.nav-menu-item-lv1:hover svg {
+    color: white!important;
+}
+
+.nav-menu-item-lv1 svg {
+    color: white !important;
+}
+
+.nav-menu-item-lv2 {
+    text-decoration: none !important;
+    color: #848693 !important;
+}
+
+.nav-menu-item-lv2:hover {
+    background-color: #0d66d9;
+    color: white!important;
+}
+
+.nav-menu-item-lv2.active {
+    color: #003668 !important;
+}
+
+.nav-menu-item-lv2.active svg {
+    color: #003668 !important;
+}
+
+.nav-menu-item-lv2:hover svg {
+    color: white!important;
+}
+
+.nav-menu-item-lv3 {
+    text-decoration: none !important;
+    color: #003668 !important;
+}
+
+.nav-menu-item-lv3:hover {
+    background-color: #0d66d9;
+    border-radius: 0px 0px 0px 0px;
+    color: #003668!important;
+}
+
+.nav-menu-item-lv3.active {
+    /* background: linear-gradient(85deg, rgb(93 3 3), rgb(135 12 12), rgb(238, 157, 157)); */
+    border-radius: 0px 0px 0px 0px;
+    color: white !important;
+}
+
+.nav-menu-item-lv3.active svg {
+    color: white !important;
+}
+
+.nav-menu-item-collapse {
+    background-color: #f9f9f9;
+}
+
+
+/* .img-logo {
+    height: 130px;
+    width: 130px;
+    margin-left: 40px;
+}
+
+.img-logoPhone {
+    height: 80px;
+    width: 100px;
+} */
+
+.color-blue {
+    color: rgba(153, 153, 153, 1);
+}
+
+.div-backgournd-content {
+    padding-top: 100px;
+    position: relative !important;
+    min-height: calc(100vh - 266px);
+}
+
+.div-backgournd-content-detail {
+    padding: 0px !important;
+}
+
+.div-backgournd-content-children {
+    padding: 1rem !important;
+}
